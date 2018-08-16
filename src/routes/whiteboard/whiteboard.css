@@ -1,0 +1,24 @@
+h3{
+    margin: 10px auto;
+
+}
+
+canvas{
+    height: 500px !important;
+    border-radius: 15px;
+}
+
+button{
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.colorPicker{
+    margin: 10px auto !important;
+}
+

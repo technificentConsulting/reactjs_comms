@@ -1,0 +1,34 @@
+.chatCreateMessageForm {
+  flex: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #e0e0e0;
+  height: 3.6rem;
+  display: flex;
+  width: 100%;
+}
+
+.chatCreateMessageForm input:first-child {
+  flex: 1 1 100%;
+  padding: 1rem;
+  border: 0;
+  font-size: 1rem;
+}
+
+.chatCreateMessageForm button {
+  position: relative;
+  border: 0;
+  background: #fff;
+  padding: 0;
+}
+
+.chatCreateMessageForm > * {
+  margin-right: 0.62rem;
+}
+
+.chatCreateMessageForm svg {
+  width: 2rem;
+  height: 2rem;
+  fill: #006eff;
+}

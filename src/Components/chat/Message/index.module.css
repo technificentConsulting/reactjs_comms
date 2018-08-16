@@ -1,0 +1,71 @@
+.chatMessage {
+  position: relative;
+  display: flex;
+  flex: none;
+  font-size: 16px;
+  padding-top: 1rem;
+}
+
+.chatMessage:not(:last-child) {
+  border-top: 1px solid #f2f2f2;
+  margin-top: 1rem;
+}
+
+.chatMessage > img {
+  flex: none;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 0.38rem;
+}
+
+.chatMessage > div > img,
+.chatMessage > div > video,
+.chatMessage > div > audio {
+  width: 30rem;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+  min-width: 0;
+}
+
+.chatMessage > * + * {
+  margin-left: 0.38rem;
+}
+
+.chatMessage > div {
+  margin-left: 1rem;
+}
+
+.chatMessage > div > p,
+.chatMessage > div > a {
+  padding-top: 0.5rem;
+  max-width: 100%;
+  word-break: break-word;
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 150%;
+  max-width: 100ex;
+}
+
+.chatMessage > div a {
+  color: #006eff;
+}
+
+.chatMessage > div > span {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 0.62rem;
+  color: #b6b6b6;
+  margin: 0;
+}
+
+.online::before {
+  display: block;
+  content: '';
+  width: 0.5rem;
+  height: 0.5rem;
+  background: #42b72a;
+  border-radius: 50%;
+  margin-right: 0.38rem;
+}
